@@ -29,7 +29,7 @@ for (let i = 0; i <= max; i++) {
     if (i === args[0]) {
       process.stdout.write('\x07');
       args.shift();
-    }    
+    }
   }, delay);
 
   delay += 1000;
